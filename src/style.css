@@ -1,19 +1,73 @@
 :root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+p {
+  font-weight: bold;
+  background: var(--secondary-color);
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 0px;
+  width: 100%;
+}
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+.btn-branding {
+  background: var(--branding-color);
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+
+:root {
   --primary-color: #805ed4;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
   margin: 100px 0;
-}
-h1,
-h2,
-h3 {
-  text-align: center;
-  margin: 0;
-}
-h1 {
-  font-size: 96px;
 }
 
 h2 {
@@ -24,15 +78,7 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
 }
-p {
-  background: var(--secondary-color);
-  font-size: 18px;
-  line-height: 1.5;
-  padding: 20px;
-  border-radius: 4px;
-  margin: 0px;
-  width: 100%;
-}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
