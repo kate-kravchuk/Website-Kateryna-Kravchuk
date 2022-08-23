@@ -22,6 +22,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  list-style: 1.5;
 }
 
 h2 {
@@ -33,6 +34,7 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -85,8 +87,9 @@ body {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 64px;
   text-align: center;
+  line-height: 2;
 }
 
 h3 {
@@ -173,28 +176,25 @@ h3 {
 .text-center {
   text-align: center !important;
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 48px;
-    line-height: 1.5;
-  }
-  h2 {
-    font-size: 32px;
-  }
-  p {
-    text-align: center;
-  }
-  .project-link {
-    display: block;
-    text-align: center;
-    margin: 0, 20px;
-  }
-}
+
 .project-description {
   padding: 120px 60px;
 }
-@media (max-width: 960px) {
-  .project-description {
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-desciption {
     padding: 0;
     text-align: center;
   }
