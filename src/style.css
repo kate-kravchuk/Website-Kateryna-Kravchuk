@@ -220,4 +220,43 @@ h3 {
   .about-paragraphs p {
     font-size: 16px;
   }
+  .content h1 {
+    font-size: 44px;
+    line-height: 60px;
+  }
+
+  .content h2 {
+    font-size: 24px;
+    line-height: 1, 5;
+  }
+  .content p {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1, 5;
+  }
+  .content-container img {
+    width: 300px;
+    text-align: center;
+    border-radius: 30px;
+  }
+}
+
+.content-container {
+  text-align: center;
+  padding: 160px 20px;
+}
+.content-container img {
+  width: 400px;
+  border-radius: 30px;
+}
+.content-container {
+  margin: 30px;
+}
+.content-container h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.content-container h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
 }
