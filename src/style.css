@@ -104,7 +104,6 @@ h2 {
 
 h3 {
   font-size: 24px;
-  opacity: 0.7;
 }
 
 .navigation-links {
@@ -199,6 +198,11 @@ h3 {
 .project-description {
   padding: 120px 60px;
 }
+.content {
+  text-align: center;
+  padding: 0;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -220,6 +224,7 @@ h3 {
   .about-paragraphs p {
     font-size: 16px;
   }
+
   .content h1 {
     font-size: 44px;
     line-height: 60px;
@@ -252,11 +257,20 @@ h3 {
 .content-container {
   margin: 30px;
 }
-.content-container h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.content-container h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
+}
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+}
+.content p {
+  font-size: 14px;
 }
