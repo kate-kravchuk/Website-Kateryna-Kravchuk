@@ -1,5 +1,6 @@
 :root {
   --branding-color: #6c63ff;
+
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -45,18 +46,12 @@ p {
   line-height: 2;
   font-size: 24px;
 }
-
 .hero p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
   color: #272142;
 }
-
-.hero {
-  padding: 80px 20px;
-}
-
 .btn-branding {
   background: var(--branding-color);
   color: white;
@@ -65,35 +60,8 @@ p {
   font-size: 18px;
   padding: 20px 15px;
 }
-
-.primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-  font-size: 12px;
-}
-
-.secondary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
-  font-size: 12px;
-}
-
-:root {
-  --primary-color: #805ed4;
-  --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
-body {
-  margin: 100px 0;
+.btn-branding:hover {
+  color: burlywood;
 }
 
 h2 {
@@ -119,20 +87,6 @@ h3 {
   text-decoration: none;
   text-transform: capitalize;
 }
-.primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.primary-link:hover {
-  color: white;
-}
-
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -141,30 +95,7 @@ h3 {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-.homepage-link {
-  display: block;
-  text-align: center;
-  color: var(--primary-color);
-}
-.project-link {
-  text-align: start;
-  border-radius: 4px;
 
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
 .about-paragraphs {
   display: flex;
   font-size: 18px;
@@ -181,34 +112,24 @@ h3 {
   font-weight: normal;
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: var(--primary-color);
-  font-size: 24px;
-  text-decoration: none;
-}
-.email-link:hover {
-  text-decoration: underline;
-}
 .text-center {
   text-align: center !important;
 }
-
 .project-description {
   padding: 120px 60px;
-}
-.content {
-  text-align: center;
-  padding: 0;
 }
 
 .content-container {
   padding: 160px 20px;
 }
+.content-container img {
+  width: 400px;
+  border-radius: 30px;
+}
 .content {
+  text-align: center;
   margin: 30px;
+  padding: 0;
 }
 .content h1 {
   font-size: 64px;
@@ -227,10 +148,6 @@ h3 {
 .content p {
   font-size: 14px;
 }
-.content-container img {
-  width: 400px;
-  border-radius: 30px;
-}
 
 nav {
   padding: 20px 0;
@@ -238,15 +155,15 @@ nav {
 nav img {
   max-height: 40px;
 }
+nav ul {
+  margin: 0;
+  padding: 0;
+}
 nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
   margin-left: 10px;
-}
-nav ul {
-  margin: 0;
-  padding: 0;
 }
 nav a {
   color: #272142;
@@ -257,6 +174,7 @@ nav li.active a {
   transition: all 100ms ease-in-out;
   text-decoration: none;
 }
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
