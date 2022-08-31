@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="About Kateryna Kravchuk, a front-end developer based in Lyon, France, check out her projects and contact her for job inquiries" />
+    <meta
+      name="description"
+      content="About Kateryna Kravchuk, a front-end developer based in Lyon, France, check out her projects and contact her for job inquiries"
+    />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -27,51 +30,47 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script src="https://kit.fontawesome.com/74cd22f730.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/74cd22f730.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>front-end developer - Kateryna Kravchuk</title>
   </head>
 
   <body>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
-  <a class="navbar-brand" href="#"><img src="src/images/logo.png" class="logo fluid" alt=""></a>
-  
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about.html">About</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="/work.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Work
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="src/images/logo.png"
+            class="logo d-none d-md-block"
+            alt=""
+          />
+          <img
+            src="src/images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt=""
+          />
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled active" href="/contact.html">Contact</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+        <ul>
+          <li class="active">
+            <a href="/"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html"> About</a>
+          </li>
+          <li>
+            <a href="/work.html"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
-<div class="hero">
+    <div class="hero">
       <p>👋Hi, I am</p>
       <h1 class="mb-3">Kateryna Kravchuk</h1>
       <h2 class="mb-5">Front-End Developer based in Europe, France</h2>
@@ -79,100 +78,119 @@
         <a href="/work.html" class="btn btn-branding">Work Page</a>
         <a href="/about.html" class="btn btn-branding">About me</a>
       </div>
-      </div>
-    
-          <div class="projects-wrapper m-md-5">
-  
-             <div class="row mb-3">
-          <div class="col d-none d-lg-block">
-<img src="src/images/painting.jpg" alt="Painting in France" class="img-fluid ">
-          </div>
+    </div>
 
-           <div class="col">
-            <div class="project-description">
-            <h2 class="mb-5"> Painting Application</h2>
-           
-            <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
-            </p>
-            <div class="navigation-links mt-5">
-              <a href="#" class="btn btn-branding" title="Painting in France">Launch Painting App</a>
-            </div>
-             </div>
-             </div>
-
-            
-            <div class="row mb-3">
-            <div class="col">
-            <div class="project-description">
-            <h2> Interior Design Application</h2>
-           
-            <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
-            </p>
-            <div class="navigation-links mt-5">
-              <a href="#" class="btn btn-branding" title="Interior design">Launch Painting App</a>
-            </div>
-            </div>
-            </div>
-            <div class="col d-none d-lg-block">
-<img src="src/images/interior design.jpg" alt="Interior design" class="img-fluid ">
-          </div>
-          </div>
-
-            <div class="row mb-3">
-          <div class="col d-none d-lg-block">
-<img src="src/images/weather.jpg" alt="Weather forecast" class="img-fluid ">
-          </div>
-           <div class="col">
-            <div class="project-description">
-            <h2 class="mb-5"> Weather Application</h2>
-           
-            <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
-            </p>
-            <div class="navigation-links mt-5">
-              <a href="#" class="btn btn-branding" title="Weather forecast">Launch Painting App</a>
-            </div>
-            </div>
-            </div>
-</div>
-            <footer>
-<div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-  <div>
-  <h4>Work Inquiry</h4>
-  <p class="text-muted">Let's work together</p>
-  </div>
-  <div>
-  <a href="" class="btn btn-branding">Contact me</a>
-  </div>
-</div>
-              <div class="d-flex justify-content-center mb-5">
-        <a href="mailto:kravchuk.kattie@gmail.com">kravchuk.kattie@gmail.com</a>
+    <div class="projects-wrapper m-md-5">
+      <div class="row mb-3">
+        <div class="col d-none d-lg-block">
+          <img
+            src="src/images/painting.jpg"
+            alt="Painting in France"
+            class="img-fluid"
+          />
         </div>
 
-        <div class="social-links d-flex justify-content-center mb-5">
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Painting Application</h2>
+
+            <p class="mb-5 text-muted">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean. A small river named Duden flows by
+            </p>
+
+            <div class="navigation-links mt-5">
+              <a href="#" class="btn btn-branding" title="Painting in France"
+                >Launch Painting App</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col">
+          <div class="project-description">
+            <h2>Interior Design Application</h2>
+
+            <p class="mb-5 text-muted">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean. A small river named Duden flows by
+            </p>
+            <div class="navigation-links mt-5">
+              <a href="#" class="btn btn-branding" title="Interior design"
+                >Launch Painting App</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img
+            src="src/images/interior design.jpg"
+            alt="Interior design"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col d-none d-lg-block">
+          <img
+            src="src/images/weather.jpg"
+            alt="Weather forecast"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Weather Application</h2>
+
+            <p class="mb-5 text-muted">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean. A small river named Duden flows by
+            </p>
+            <div class="navigation-links mt-5">
+              <a href="#" class="btn btn-branding" title="Weather forecast"
+                >Launch Painting App</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="" class="btn btn-branding m-3">Contact me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:kravchuk.kattie@gmail.com"
+            >kravchuk.kattie@gmail.com
+          </a>
+        </div>
+
+        <div class="social-links d-flex justify-content-center">
           <a href="https://www.instagram.com/cateinfr" target="_blank">
             <i class="fa-brands fa-instagram"></i>
-          </a>          
+          </a>
           <a href="https://github.com/kate-kravchuk" target="_blank">
             <i class="fa-brands fa-github"></i>
           </a>
           <a href="https://www.facebook.com/kattie.kravchuk" target="_blank">
             <i class="fa-brands fa-facebook"></i>
           </a>
-          </div>          
-        </footer>
-</div>
-             
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
