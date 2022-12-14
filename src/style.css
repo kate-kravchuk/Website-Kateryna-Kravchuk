@@ -102,9 +102,11 @@ p {
   padding: 120px 60px;
 }
 .content-container {
-  padding: 60px 20px;
+  text-align: center;
+  padding: 60px 50px;
 }
 .content-container img {
+  text-align: center;
   width: 400px;
   border-radius: 30px;
 }
